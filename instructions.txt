@@ -1,0 +1,120 @@
+create a folder called 07-02
+in index.php do the following
+define a variable called "Araw"
+if araw = Lunes print "nang tayo'y magkakilala"
+if araw = Martes print "nang tayo' muling magkita"
+if araw = Miyerkules print "nagtapat ka ng iyong pag-ibig"
+if araw = Huwebes print "ay inibig din kita"
+if araw = Biyernes print "ay puno ng pagmamahalan"
+if araw = Sabado print "tayo'y biglang nagkatampuhan"
+if araw = Linggo print "giliw ako'y iyong iniwan""
+
+xxx
+
+in index php
+modify $araw to be an array of days
+using any loop
+display the lyrics of the song "Isang Linggong Pagibig"
+xxx
+assoc_array.php
+code along
+
+xxx
+carete an associative array for yourself containing
+name
+age
+pervious occupation
+status
+enter the key value pairs using a  a foreach loop
+format: name: >name>
+age: <age> years old
+gender: <gender>
+status <status
+xxxxx
+create a new file called country_city.php
+create an array called country_city
+"Japan" "Tokyo" "Mexico" and "Mexico City" "USA" "New York" "India" "Mumbai" "Korea" "Seoul" "China" Shanghao
+"Nigeria" "Lagos"
+Add Argentia and Buenos Aires to the arraw
+change china's city to Beijing
+-display all the pairs using a foreach loop in the following format
+<city> is in <country>
+stretch goal
+remove korea and seoul then display again
+
+xxx
+	//asort ascending according to the value
+		//ksort asc order according to the key
+		//arsort desc according to the value
+		//krsort //desc order according to the key
+
+	xxx
+
+Foreach loop
+
+$letters = ['h','e','l','l','o']	
+foreach ($letters as $letter) {
+	
+}
+
+xxx
+Multi-dimensional arrays
+Array within an array
+
+xxx
+tasklist
+name of task
+status done or not
+xxx
+create tasklist.php
+output:
+
+
+xxx
+
+<?php 
+function print2by3Table(){
+	echo "<table border=1>";
+
+	for ($i = 0; $i < 2; $i++) {
+		echo "<tr>";
+		for ($j=0; $j < 3; $j++) {
+			echo "<td> Content </td>";
+		}
+		echo "</tr>";
+	}
+	echo "</table>";
+}
+	//Calling our function
+	print2by3Table();
+	print2by3Table();
+	print2by3Table();
+ ?>
+
+
+xxxx
+
+function name (parameters) {
+	process
+	return
+}
+
+xxx
+
+IPO Paradigm - Input - Process - Output
+
+xxx
+
+1.create shapes.php
+2. create functions for each of the shapes to get their perimeter and area
+-Square, Triangle, Rectangle, Circle
+3.Use the following test cases as parameters
+Format of output
+Perimeter: 80 units, Area: 400 sq. units
+test case: 
+
+-square -> side = 20;
+-triangle -> a = 11, b = 12, c = 13, base = 14,
+height = 16
+-rectangle -> length = 25 and 5, width = 15 and 7 
+-circle -> radius = 50 and 14
